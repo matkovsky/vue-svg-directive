@@ -1,17 +1,33 @@
 {
   "name": "vue-svg-directive",
-  "version": "0.0.6",
-  "description": "VueJS directive to make using SVG sprites simpler",
+  "version": "0.1.0",
+  "description": "Vue.js 2 directive to make using SVG sprites simpler",
   "main": "dist/vue-svg-directive.js",
   "scripts": {
     "dist": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
+  "license": "UNLICENSED",
   "keywords": [
-    "vuej",
+    "vuejs",
+    "vue",
     "svg",
-    "sprite"
+    "sprite",
+    "vuejs2",
+    "vue2",
+    "directive"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Phunky/vue-svg-directive"
+  },
   "author": "Mark Harwood",
+  "contributors": [
+    {
+      "name": "Peter Matkovsky",
+      "email": "peter@matkovsky.com",
+      "url": "http://matkovsky.com"
+    }
+  ],
   "devDependencies": {
     "babel-core": "^6.3.17",
     "babel-eslint": "^6.0.2",
