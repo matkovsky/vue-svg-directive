@@ -8,7 +8,7 @@ export default {
 
                 let svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
                 let use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
-                let sprite = `${opts.prefix}${binding.expression}`;
+                let sprite = `${opts.prefix}${binding.value}`;
                 let scope = null;
 
                 for (let key in el.attributes) {
