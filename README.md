@@ -1,3 +1,8 @@
+# ⚠️ Looking for a Vue 2 compatible SVG sprite directive?
+Check out **[v-svg-directive](https://github.com/kuix/v-svg-directive)**!
+
+---
+
 # vue-svg-directive
 VueJS directive to make using [SVG sprites](https://icomoon.io/app/) much simpler to use.
 
